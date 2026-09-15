@@ -1,0 +1,26 @@
+# Python 3.12
+# Install: pip install -r requirements.txt
+
+# Neuroimaging
+nibabel==5.3.3
+nilearn==0.12.1
+neuromaps @ git+https://github.com/netneurolab/neuromaps@f0ed67c44d633061b93c6d337a1b233f6895c408
+nispace @ git+https://github.com/LeonDLotter/NiSpace.git@bb7e09688ad2f6762cd99c0fdff9101b591a7d3b
+
+# Data / stats
+numpy==2.3.5
+pandas==3.0.0
+scipy==1.17.0
+statsmodels==0.14.6
+scikit-learn==1.8.0
+
+# Visualisation
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Utilities
+openpyxl==3.1.5
+tqdm==4.67.3
+
+# Notebooks
+jupyter

@@ -1,0 +1,20 @@
+# --- PPMI data safety net --------------------------------------------------
+# No PPMI raw data, derived data, results, or figures are permitted in this
+# repository (PPMI Data Use Agreement does not permit redistribution).
+# These rules are intentionally broad and redundant on purpose.
+*.csv
+*.xlsx
+*.xls
+clinical_data_curation/data/
+MRI_neurotransmitter_analysis/data/
+MRI_neurotransmitter_analysis/results/
+
+# --- Python / environments --------------------------------------------------
+**/.venv/
+**/venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- OS / editor -------------------------------------------------------------
+.DS_Store
