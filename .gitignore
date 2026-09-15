@@ -16,5 +16,10 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
+# --- Scratch / debug notebooks (not part of the pipeline) --------------------
+clinical_data_curation/check.ipynb
+clinical_data_curation/test.ipynb
+clinical_data_curation/just_text.ipynb
+
 # --- OS / editor -------------------------------------------------------------
 .DS_Store

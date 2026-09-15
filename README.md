@@ -11,7 +11,7 @@ MSc thesis project investigating structural brain atrophy in Parkinson's disease
                                     # ggseg surface visualization, and NiSpace neurotransmitter colocalization
 ```
 
-- **`clinical_data_curation/`** — Jupyter notebooks that load, clean, and merge the raw PPMI clinical data cut into the tables used downstream (subject diagnosis/cohort, demographics, cognitive and motor scores, biomarkers).
+- **`clinical_data_curation/`** — three notebooks, run in order (`01_` → `03_`, see its [README](clinical_data_curation/README.md)), that load, clean, and merge the raw PPMI clinical data cut into the tables used downstream (subject diagnosis/cohort, demographics, cognitive and motor scores, biomarkers).
 - **`MRI_neurotransmitter_analysis/`** — Imaging-derived analysis pipeline:
   - `notebooks/00_preprocessing` — outlier detection on volume/thickness measures
   - `notebooks/01_main_analysis` — case-control group comparisons (cortical/subcortical volume, cortical thickness)
@@ -28,7 +28,7 @@ Most notebooks are Python; the `ggseg_*` notebooks under `03_visualization` and 
 To reproduce this work:
 1. Request your own PPMI data access at [ppmi-info.org](https://www.ppmi-info.org/access-data-specimens/download-data).
 2. Place the relevant files under `clinical_data_curation/data/` and `MRI_neurotransmitter_analysis/data/` (both git-ignored) following the paths referenced in the notebooks.
-3. Install dependencies and run the notebooks in the order implied by the folder numbering (`00_` → `04_`).
+3. Install dependencies and run the notebooks in numbered order within each folder (`clinical_data_curation/01_` → `03_`, then `MRI_neurotransmitter_analysis/notebooks/00_` → `04_`).
 
 ## Setup
 
